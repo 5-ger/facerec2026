@@ -6,6 +6,10 @@ __pycache__/
 dist/
 build/
 
+# 训练数据（仅保留目录名）
+raw/*
+!raw/.gitkeep
+
 # 数据库（运行时生成，不含代码）
 access_control.db
 

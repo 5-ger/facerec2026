@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 数据库（运行时生成，不含代码）
+access_control.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+Thumbs.db
+.DS_Store
+
+# Claude Code
+.claude/
+
+# 文档与截图（仅保留README.md）
+*.md
+*.pdf
+!README.md
+
+# 模型文件（体积大，建议用网盘或Git LFS单独管理）
+models/*.caffemodel
+models/*.ckpt
+
+# 截图等临时文件
+*.jpg
+*.jpeg
+*.png
+*.bmp
